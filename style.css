@@ -1,0 +1,133 @@
+.navbar img{
+    width: 10rem;
+}
+.btn{
+	border-radius: 10rem;
+}
+.z h1{
+	font-family: 'Roboto', sans-serif;
+}
+
+.back{
+    background-image: url(./pexels-frank-cone-3573556.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+}
+.back::after{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ad538925;
+}
+.z{
+    z-index: 2;
+    font-size: 8rem;
+}
+
+   
+.pa{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.back1{
+    background-image: url(./pexels-jimmy-aaja-12357627.jpg);
+    height: 40vh;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+}
+.back1::after{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+.back2{
+    background-image: url(./pexels-karolina-grabowska-4594023.jpg);
+    height: 40vh;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+}
+.back2::after{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.back3{
+    background-image: url(./pexels-martin-péchy-1292296.jpg);
+    height: 40vh;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+}
+.back3::after{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.z1{
+    z-index: 1;
+}
+.z1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-size: 2rem; */
+}
+.card4 img{
+    height: 70vh;
+    width: 25rem;
+}
+
+
+.background{
+    background: #ad5389; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ad5389, #3c1053); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ad5389, #3c1053); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.form-control{
+    border-radius: 5rem;
+}
+
+
+@media screen and (max-width:768px) {
+	.right a{
+		display: none;
+	}
+    .z{
+        font-size: 2rem;
+        
+    }
+    .but2{
+        padding-right: 8rem;
+        
+        margin-top: 1rem;
+        
+    }
+    .button5{
+            margin-top: 1rem;
+        
+    }
+    
+    .pz{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+   
+}
